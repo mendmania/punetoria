@@ -2,14 +2,14 @@
 </script>
 
 <template>
-    <body class="spy-body py-8">
-        <slot/>
-    </body>
+  <div class="h-full flex flex-col punetoria-body p-4">
+    <slot />
+  </div>
 </template>
 
 <style lang="scss">
 body {
-  &.spy-body {
+  &.punetoria-body {
   }
 }
 </style>

@@ -3,7 +3,7 @@ import { ref } from "vue";
 </script>
 
 <template>
-  <header class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+  <header class="bg-white rounded-lg shadow dark:bg-gray-900">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-6">
       <div class="sm:flex sm:items-center sm:justify-between">
         <NuxtLink
@@ -24,15 +24,14 @@ import { ref } from "vue";
           class="flex flex-wrap items-center my-3 text-sm font-medium text-gray-500 dark:text-gray-400"
         >
           <li>
-            <NuxtLink to="/learn-to-play" class="hover:underline me-4 md:me-6"
-              >Learn To Play</NuxtLink
+            <NuxtLink to="/posto" class="hover:underline me-4 md:me-6"
+              >Posto</NuxtLink
             >
           </li>
           <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="#" class="hover:underline">Contact</a>
+            <NuxtLink to="/login" class="hover:underline me-4 md:me-6"
+              >Kycu</NuxtLink
+            >
           </li>
         </ul>
       </div>

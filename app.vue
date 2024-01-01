@@ -1,4 +1,12 @@
 <script setup>
+import { useFirebaseStore } from "~/stores/firebase";
+const firebaseStore = useFirebaseStore();
+
+onMounted(()=>{
+
+  firebaseStore.init()
+})
+
 useHead({
   title: "Punetoria",
   htmlAttrs: { lang: "en" },
@@ -68,10 +76,10 @@ useHead({
 
 
 <template>
-  <div class="h-full flex flex-col">
+  <TheBody>
     <TheHeader />
-    <!-- <NuxtPage /> -->
+    <NuxtPage />
 
     <TheFooter />
-  </div>
+  </TheBody>
 </template>
