@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>Type Chars</div>
+  <div>Punetoria</div>
 </template>
 
 <style>

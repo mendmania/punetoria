@@ -13,11 +13,11 @@ import { ref } from "vue";
           <!-- <img
             :src="'/DrawIcon.png'"
             class="h-[64px] w-[64px]"
-            alt="Type Chars Logo"
+            alt="Punetoria Logo"
           /> -->
           <span
             class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-            >Type Chars</span
+            >Punetoria</span
           >
         </NuxtLink>
         <ul

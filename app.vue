@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Type Chars",
+  title: "Punetoria",
   htmlAttrs: { lang: "en" },
   meta: [
     {
